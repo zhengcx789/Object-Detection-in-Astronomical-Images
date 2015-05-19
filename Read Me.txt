@@ -7,11 +7,13 @@ All Rights Reserved.
 This code is being made available for research purposes only, it shall not be used, rewritten,or adapted as the basis of a commercial software or hardware product. The authors make no representations about the suitability of this code for any purpose. It is provided "as is" without express or implied warranty.
 ------------------------------------------------------------------------------------------------
 
-1°¢OVERVIEW
+1„ÄÅOVERVIEW
 
 * Data access:
 Download the data from "http://lsst.astro.washington.edu/data/deep/" for testing the global detetcion pipeline,
 and download the data from "http://dls.physics.ucdavis.edu" for testing the local detecion pipline.
+
+* Requirements: Matlab
 
 * To execute the local method for astronomical object detection, run the script Main_Local_Detection.m.
 * To execute the global method for astronomical object detection, run the script Main_Global_Detection.m.
@@ -36,12 +38,12 @@ NClean.m: Function to clean the artifacts (noise) around large objects for globa
 
 deblend_Wa.m: Function to deblend the touching or overlapping objects directly using the watershed method
 
-* For noise level estimation, we use Masayuki Tanaka°Øs matlab codes °∞NoiseLevel.m°±
+* For noise level estimation, we use Masayuki Tanaka‚Äôs matlab codes ‚ÄúNoiseLevel.m‚Äù
 
-* For ellipse fitting, we use the matlab codes °∞fitellipse.m°± provided by Andrew Fitzgibbon, Maurizio Pilu and Bob Fisher.
+* For ellipse fitting, we use the matlab codes ‚Äúfitellipse.m‚Äù provided by Andrew Fitzgibbon, Maurizio Pilu and Bob Fisher.
 
-* For computing the distances from the points to the ellipse, we use Hui Ma°Øs matlab codes °∞Residuals_ellipse.m°±.
+* For computing the distances from the points to the ellipse, we use Hui Ma‚Äôs matlab codes ‚ÄúResiduals_ellipse.m‚Äù.
 
-2°¢REFERENCE
+2„ÄÅREFERENCE
 This is an example code for the algorithm described in the paper:
- Caixia Zheng, Jesus Pulido, Paul Thorman, Bernd Hamann, °∞An Improved Method for Object Detection in Astronomical Images°±.
+ Caixia Zheng, Jesus Pulido, Paul Thorman, Bernd Hamann, ‚ÄúAn Improved Method for Object Detection in Astronomical Images‚Äù.
