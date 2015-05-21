@@ -13,7 +13,7 @@ This code is being made available for research purposes only, it shall not be us
 Download the data from "http://lsst.astro.washington.edu/data/deep/" for testing the global detetcion pipeline,
 and download the data from "http://dls.physics.ucdavis.edu" for testing the local detecion pipline.
 
-* Requirements: Matlab
+* Requirements: Matlab and the Image Processing Toolbox
 
 * To execute the local method for astronomical object detection, run the script Main_Local_Detection.m.
 * To execute the global method for astronomical object detection, run the script Main_Global_Detection.m.
