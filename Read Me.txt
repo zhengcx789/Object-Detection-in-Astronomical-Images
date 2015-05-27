@@ -14,6 +14,8 @@ Download the data from "http://lsst.astro.washington.edu/data/deep/" for testing
 and download the data from "http://dls.physics.ucdavis.edu" for testing the local detecion pipline.
 
 * Requirements: Matlab and the Image Processing Toolbox
+                or
+                GNU Octave with Image and FITS packages
 
 * To execute the local method for astronomical object detection, run the script Main_Local_Detection.m.
 * To execute the global method for astronomical object detection, run the script Main_Global_Detection.m.
