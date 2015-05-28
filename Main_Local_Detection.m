@@ -13,6 +13,7 @@ clear;
 isOctave = exist('OCTAVE_VERSION', 'builtin') ~= 0;
 
 %%%%%%%%%%%%%% Set the parameters %%%%%%%%%%%%%%
+FileName='data\R.fits';                 % Path and name to fits file
 FilterName='gaussian';                  % 2D filter type 
 FilterSize=[7,7];                       % Kernel filter size
 FilterSigmal=1.5;                       % Standard deviation SIGMA (positive)
@@ -39,9 +40,9 @@ path = [pwd,strcat('\',path_name,'\')];
 
 % Read an astronomical image
 if ~isOctave
-ori_im=fitsread('data\R.fits'); 
+ori_im=fitsread(FileName); 
 else
-ori_im=read_fits_image('data\R.fits'); 
+ori_im=read_fits_image(FileName); 
 end
 if ShowImage figure,imshow(ori_im,[]),title('original image'); end
 
