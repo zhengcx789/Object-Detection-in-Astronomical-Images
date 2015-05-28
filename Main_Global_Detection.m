@@ -31,7 +31,7 @@ if ~exist(path_name)
 end
 path = [pwd,strcat('\',path_name,'\')];  
 
-% Read an astronomical image
+% Read an astronomical image 
 if ~isOctave
 ori_im=fitsread('data\Deep_32.fits'); 
 else
